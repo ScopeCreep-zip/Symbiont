@@ -64,7 +64,7 @@ graph TB
     T --> CAPS[Apply Caps]
     CAPS --> FINAL["T_final"]
 
-    style FINAL fill:#FFD700
+    style FINAL fill:#b8956b
 ```
 
 ---
@@ -135,7 +135,7 @@ graph LR
     AGG["Weighted Average<br/>by trust × decay"]
     AGG --> Q["Q_agg ≈ 0.83"]
 
-    style Q fill:#98FB98
+    style Q fill:#7d9f85
 ```
 
 ### 3.4 Per-Capability Quality
@@ -195,7 +195,7 @@ graph TB
 
     R_AGG --> SIG --> R_TRUST
 
-    style R_TRUST fill:#FFB6C1
+    style R_TRUST fill:#a67676
 ```
 
 **Interpretation:**
@@ -244,7 +244,7 @@ graph TB
     CALC["S_social = Σ(T × strength) / Σ(T)"]
     CALC --> S["S_social ≈ 0.82"]
 
-    style S fill:#87CEEB
+    style S fill:#6b8fa3
 ```
 
 ### 5.4 Self-Confidence (Related Concept)
@@ -305,7 +305,7 @@ graph TB
     CAP --> COMP
     COMP[Compare] --> T_FINAL
 
-    style T_FINAL fill:#FFD700
+    style T_FINAL fill:#b8956b
 ```
 
 ---
@@ -427,7 +427,7 @@ graph TB
 
     MULT --> SCORE["S_route = 0.44"]
 
-    style SCORE fill:#98FB98
+    style SCORE fill:#7d9f85
 ```
 
 ---

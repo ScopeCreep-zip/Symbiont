@@ -32,11 +32,11 @@ graph TB
         CORE --> ORCH[Intelligent<br/>Orchestration]
     end
 
-    style BIO1 fill:#90EE90
-    style BIO2 fill:#90EE90
-    style BIO3 fill:#90EE90
-    style CORE fill:#FFD700
-    style ORCH fill:#87CEEB
+    style BIO1 fill:#7d9f85
+    style BIO2 fill:#7d9f85
+    style BIO3 fill:#7d9f85
+    style CORE fill:#b8956b
+    style ORCH fill:#6b8fa3
 ```
 
 ---
@@ -188,8 +188,8 @@ graph LR
         DELTA --> W[w: New Weight]
     end
 
-    style PHI fill:#FFD700
-    style W fill:#90EE90
+    style PHI fill:#b8956b
+    style W fill:#7d9f85
 ```
 
 | Symbol | Description | Range |
@@ -242,7 +242,7 @@ flowchart TD
         AGG --> TRUST[Trust Score]
     end
 
-    style TRUST fill:#FFD700
+    style TRUST fill:#b8956b
 ```
 
 ### 2. Decentralized Orchestration

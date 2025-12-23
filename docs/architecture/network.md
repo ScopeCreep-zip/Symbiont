@@ -41,11 +41,11 @@ graph LR
     C ---|w=0.55| E((E))
     D ---|w=0.78| E
 
-    style A fill:#98FB98
-    style B fill:#87CEEB
-    style C fill:#FFD700
-    style D fill:#DDA0DD
-    style E fill:#FFB6C1
+    style A fill:#7d9f85
+    style B fill:#6b8fa3
+    style C fill:#b8956b
+    style D fill:#8a7a9a
+    style E fill:#a67676
 ```
 
 ### 2.2 Connection Directionality
@@ -163,7 +163,7 @@ graph TB
         E4 ---|strong| E5
     end
 
-    style E3 fill:#FFD700
+    style E3 fill:#b8956b
 ```
 
 **Emergent Properties:**
@@ -213,8 +213,8 @@ graph TB
         N5 --- N6
     end
 
-    style H1 fill:#FFD700
-    style H2 fill:#FFD700
+    style H1 fill:#b8956b
+    style H2 fill:#b8956b
 ```
 
 ### 4.2 Scale-Free Tendency
@@ -337,7 +337,7 @@ graph TB
         H2A -->|w=1.0| H3
     end
 
-    style O fill:#FF6B6B
+    style O fill:#996666
 ```
 
 ### 6.2 Propagation Rules
@@ -370,8 +370,8 @@ graph TB
     B -->|signal| TARGET
     C -->|signal| TARGET
 
-    style THREAT fill:#FF6B6B
-    style TARGET fill:#FFD700
+    style THREAT fill:#996666
+    style TARGET fill:#b8956b
 ```
 
 **Target's Belief Update:**
@@ -411,7 +411,7 @@ graph TB
     C --> SC
     D --> SD
 
-    style SB fill:#98FB98
+    style SB fill:#7d9f85
 ```
 
 **Result:** Task routes to Node B (highest score).
@@ -476,7 +476,7 @@ graph TB
         N1 ---|0.5| N4
     end
 
-    style H1 fill:#FFD700
+    style H1 fill:#b8956b
 ```
 
 Characteristics:
@@ -550,7 +550,7 @@ graph TB
         T3D --- T3E
     end
 
-    style T3C fill:#FFD700
+    style T3C fill:#b8956b
 ```
 
 Node C becomes a hub through:
@@ -587,8 +587,8 @@ graph TB
         A1 ===|0.75| A2
     end
 
-    style BAD1 fill:#FF6B6B
-    style BAD2 fill:#FF6B6B
+    style BAD1 fill:#996666
+    style BAD2 fill:#996666
 ```
 
 ---

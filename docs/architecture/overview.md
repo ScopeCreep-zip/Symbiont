@@ -53,10 +53,10 @@ graph TB
     U2 --> N2
     U3 --> N3
 
-    style N1 fill:#87CEEB
-    style N2 fill:#87CEEB
-    style N3 fill:#87CEEB
-    style N4 fill:#87CEEB
+    style N1 fill:#6b8fa3
+    style N2 fill:#6b8fa3
+    style N3 fill:#6b8fa3
+    style N4 fill:#6b8fa3
 ```
 
 ### 2.2 What Symbiont Provides
@@ -128,16 +128,16 @@ graph TB
     CD --> ST
     DS --> NT
 
-    style APP fill:#FFD700
-    style WF fill:#87CEEB
-    style RT fill:#87CEEB
-    style HO fill:#87CEEB
-    style TC fill:#98FB98
-    style CD fill:#98FB98
-    style RR fill:#98FB98
-    style DS fill:#FFB6C1
-    style AD fill:#FFB6C1
-    style TB fill:#FFB6C1
+    style APP fill:#b8956b
+    style WF fill:#6b8fa3
+    style RT fill:#6b8fa3
+    style HO fill:#6b8fa3
+    style TC fill:#7d9f85
+    style CD fill:#7d9f85
+    style RR fill:#7d9f85
+    style DS fill:#a67676
+    style AD fill:#a67676
+    style TB fill:#a67676
 ```
 
 ### 3.2 Layer Responsibilities
@@ -192,13 +192,13 @@ graph TB
         WE --> TE
     end
 
-    style TP fill:#FFD700
-    style EH fill:#FFD700
-    style BG fill:#FFD700
-    style NS fill:#98FB98
-    style CM fill:#98FB98
-    style CP fill:#98FB98
-    style TB fill:#98FB98
+    style TP fill:#b8956b
+    style EH fill:#b8956b
+    style BG fill:#b8956b
+    style NS fill:#7d9f85
+    style CM fill:#7d9f85
+    style CP fill:#7d9f85
+    style TB fill:#7d9f85
 ```
 
 ### 4.2 Component Descriptions
@@ -449,10 +449,10 @@ graph TB
         N3 --- N4
     end
 
-    style N1 fill:#87CEEB
-    style N2 fill:#87CEEB
-    style N3 fill:#98FB98
-    style N4 fill:#98FB98
+    style N1 fill:#6b8fa3
+    style N2 fill:#6b8fa3
+    style N3 fill:#7d9f85
+    style N4 fill:#7d9f85
 ```
 
 ### 8.3 Crate Structure
@@ -580,11 +580,11 @@ graph TB
 
     L1 --> L2 --> L3 --> L4 --> L5
 
-    style L1 fill:#FFD700
-    style L2 fill:#87CEEB
-    style L3 fill:#98FB98
-    style L4 fill:#FFB6C1
-    style L5 fill:#E6E6FA
+    style L1 fill:#b8956b
+    style L2 fill:#6b8fa3
+    style L3 fill:#7d9f85
+    style L4 fill:#a67676
+    style L5 fill:#9a9ab0
 ```
 
 ---

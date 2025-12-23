@@ -60,11 +60,11 @@ graph LR
 
     POL --> STK --> EXP --> CVG --> DON
 
-    style POL fill:#FF6B6B
-    style STK fill:#FFB6C1
-    style EXP fill:#FFFFE0
-    style CVG fill:#98FB98
-    style DON fill:#90EE90
+    style POL fill:#996666
+    style STK fill:#a67676
+    style EXP fill:#c9c9a8
+    style CVG fill:#7d9f85
+    style DON fill:#7d9f85
 ```
 
 ---
@@ -376,7 +376,7 @@ graph TB
 
     TX --> WIN["Winner: X<br/>Confidence: 71%"]
 
-    style WIN fill:#98FB98
+    style WIN fill:#7d9f85
 ```
 
 ---
@@ -415,7 +415,7 @@ graph LR
 
     R1 --> R2 --> R3 --> R4 --> R5
 
-    style R5 fill:#90EE90
+    style R5 fill:#7d9f85
 ```
 
 ---

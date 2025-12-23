@@ -35,7 +35,7 @@ graph LR
     S --> T
     D --> T
 
-    style T fill:#FFD700
+    style T fill:#b8956b
 ```
 
 $$T(n) = 0.4 \cdot Q_{agg} + 0.2 \cdot R_{trust} + 0.2 \cdot S_{social} + 0.2 \cdot D_{diversity}$$
@@ -193,7 +193,7 @@ graph TB
     S --> TOTAL
     D --> TOTAL
 
-    style TOTAL fill:#98FB98
+    style TOTAL fill:#7d9f85
 ```
 
 ---
@@ -254,10 +254,10 @@ graph LR
 
     T0 --> T1 --> T2 --> T3
 
-    style T0 fill:#FFE4B5
-    style T1 fill:#FFFFE0
-    style T2 fill:#98FB98
-    style T3 fill:#90EE90
+    style T0 fill:#c4b49a
+    style T1 fill:#c9c9a8
+    style T2 fill:#7d9f85
+    style T3 fill:#7d9f85
 ```
 
 ### 5.2 Trust Building Strategies
@@ -317,9 +317,9 @@ graph TB
     T7 --> S7
     T5 --> S5
 
-    style S9 fill:#90EE90
-    style S7 fill:#FFFFE0
-    style S5 fill:#FFE4B5
+    style S9 fill:#7d9f85
+    style S7 fill:#c9c9a8
+    style S5 fill:#c4b49a
 ```
 
 High trust = higher routing priority = more opportunities = more interactions = higher trust (virtuous cycle)

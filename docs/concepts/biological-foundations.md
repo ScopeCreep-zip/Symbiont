@@ -34,9 +34,9 @@ graph TB
     MYC -->|"Resource exchange<br/>tracking"| RECIP
     PLD -->|"Chemical warning<br/>signals"| DEF
 
-    style PHY fill:#98FB98
-    style MYC fill:#DEB887
-    style PLD fill:#90EE90
+    style PHY fill:#7d9f85
+    style MYC fill:#9a8a7a
+    style PLD fill:#7d9f85
 ```
 
 ---
@@ -85,15 +85,15 @@ graph TB
         F3B ===|strong| F3C
     end
 
-    style F1A fill:#FFD700
-    style F1B fill:#FFD700
-    style F1C fill:#FFD700
-    style F2A fill:#FFD700
-    style F2B fill:#FFD700
-    style F2C fill:#FFD700
-    style F3A fill:#FFD700
-    style F3B fill:#FFD700
-    style F3C fill:#FFD700
+    style F1A fill:#b8956b
+    style F1B fill:#b8956b
+    style F1C fill:#b8956b
+    style F2A fill:#b8956b
+    style F2B fill:#b8956b
+    style F2C fill:#b8956b
+    style F3A fill:#b8956b
+    style F3B fill:#b8956b
+    style F3C fill:#b8956b
 ```
 
 **Key Observation:** The network naturally optimizes—tubes carrying more nutrients grow thicker, while unused tubes shrink and disappear.
@@ -133,10 +133,10 @@ graph LR
     TOK ---|Physarum<br/>connection| SAI
     YOK ---|Physarum<br/>connection| CHI
 
-    style TOK fill:#FF6B6B
-    style YOK fill:#4ECDC4
-    style CHI fill:#45B7D1
-    style SAI fill:#96CEB4
+    style TOK fill:#996666
+    style YOK fill:#5a9a90
+    style CHI fill:#5a8a9a
+    style SAI fill:#7a9a8a
 ```
 
 This demonstrates that simple local rules can produce globally optimal solutions—a key principle underlying Symbiont.
@@ -182,10 +182,10 @@ graph TB
         T3 ---|Nutrients| F1
     end
 
-    style T1 fill:#228B22
-    style T2 fill:#90EE90
-    style T3 fill:#CD853F
-    style F1 fill:#DEB887
+    style T1 fill:#4a6b4a
+    style T2 fill:#7d9f85
+    style T3 fill:#8a7050
+    style F1 fill:#9a8a7a
 ```
 
 ### 3.2 Key Behaviors
@@ -294,8 +294,8 @@ graph LR
         P2 -->|Immediate| P3[Defense Active]
     end
 
-    style U2 fill:#FFB6C1
-    style P2 fill:#90EE90
+    style U2 fill:#a67676
+    style P2 fill:#7d9f85
 ```
 
 - **Unprimed:** Full defense activation is metabolically expensive; plants don't maintain it constantly
@@ -354,10 +354,10 @@ graph TB
     L1 --> E4
     L2 --> E4
 
-    style E1 fill:#98FB98
-    style E2 fill:#87CEEB
-    style E3 fill:#FFB6C1
-    style E4 fill:#DDA0DD
+    style E1 fill:#7d9f85
+    style E2 fill:#6b8fa3
+    style E3 fill:#a67676
+    style E4 fill:#8a7a9a
 ```
 
 ### 5.2 Why This Matters for Symbiont

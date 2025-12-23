@@ -253,8 +253,8 @@ graph LR
     H3 -->|×0.8| H4
     H4 -->|×0.8| H5
 
-    style H0 fill:#FF6B6B
-    style H5 fill:#FFE4B5
+    style H0 fill:#996666
+    style H5 fill:#c4b49a
 ```
 
 ### 4.4 Connection-Weighted Decay
@@ -337,7 +337,7 @@ graph TB
 
     B0 --> S1 --> B1 --> S2 --> B2 --> S3 --> B3
 
-    style B3 fill:#FF6B6B
+    style B3 fill:#996666
 ```
 
 **Property:** Multiple signals from different sources compound, but with diminishing returns (approaches but never exceeds 1.0).
@@ -455,7 +455,7 @@ graph TB
         U3["+0.5×0.5×(1-0.86) = 0.89"]
     end
 
-    style TARGET fill:#FFD700
+    style TARGET fill:#b8956b
 ```
 
 **Result:** Multiple corroborating signals from trusted sources rapidly increase belief.

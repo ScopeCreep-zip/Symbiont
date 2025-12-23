@@ -43,7 +43,7 @@ graph TB
     P6 --> GOAL
     P7 --> GOAL
 
-    style GOAL fill:#FFD700
+    style GOAL fill:#b8956b
 ```
 
 ---
@@ -80,13 +80,13 @@ flowchart TD
         F3[External reputation<br/>imports]
     end
 
-    style I1 fill:#90EE90
-    style I2 fill:#90EE90
-    style I3 fill:#90EE90
-    style I4 fill:#90EE90
-    style F1 fill:#FFB6C1
-    style F2 fill:#FFB6C1
-    style F3 fill:#FFB6C1
+    style I1 fill:#7d9f85
+    style I2 fill:#7d9f85
+    style I3 fill:#7d9f85
+    style I4 fill:#7d9f85
+    style F1 fill:#a67676
+    style F2 fill:#a67676
+    style F3 fill:#a67676
 ```
 
 ### 3.4 Mathematical Expression
@@ -145,14 +145,14 @@ graph TD
     T4 -->|No| P4[Pass]
     T4 -->|Yes| F4[Fail]
 
-    style P1 fill:#90EE90
-    style P2 fill:#90EE90
-    style P3 fill:#90EE90
-    style P4 fill:#90EE90
-    style F1 fill:#FFB6C1
-    style F2 fill:#FFB6C1
-    style F3 fill:#FFB6C1
-    style F4 fill:#FFB6C1
+    style P1 fill:#7d9f85
+    style P2 fill:#7d9f85
+    style P3 fill:#7d9f85
+    style P4 fill:#7d9f85
+    style F1 fill:#a67676
+    style F2 fill:#a67676
+    style F3 fill:#a67676
+    style F4 fill:#a67676
 ```
 
 ---
@@ -252,9 +252,9 @@ graph TB
     S2 --> W2[Connection<br/>stable]
     S3 --> W3[Connection<br/>weakens]
 
-    style W1 fill:#90EE90
-    style W2 fill:#FFFFE0
-    style W3 fill:#FFB6C1
+    style W1 fill:#7d9f85
+    style W2 fill:#c9c9a8
+    style W3 fill:#a67676
 ```
 
 ---
@@ -363,7 +363,7 @@ graph TB
     R3 --> S1
     R4 --> S1
 
-    style S1 fill:#FFFFE0
+    style S1 fill:#c9c9a8
 ```
 
 ### 8.4 No Single Points of Failure
@@ -444,13 +444,13 @@ graph TB
     P5 -->|requires| P7
     P6 -->|requires| P2
 
-    style P1 fill:#FFD700
-    style P2 fill:#87CEEB
-    style P3 fill:#98FB98
-    style P4 fill:#DDA0DD
-    style P5 fill:#FFB6C1
-    style P6 fill:#F0E68C
-    style P7 fill:#E6E6FA
+    style P1 fill:#b8956b
+    style P2 fill:#6b8fa3
+    style P3 fill:#7d9f85
+    style P4 fill:#8a7a9a
+    style P5 fill:#a67676
+    style P6 fill:#a8a070
+    style P7 fill:#9a9ab0
 ```
 
 ---

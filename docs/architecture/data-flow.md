@@ -107,7 +107,7 @@ flowchart TD
 
     SCORE --> FORMULA["score = T(n) × q_cap(n)<br/>× (1-load) × w<br/>× (1-threat)"]
 
-    style FORMULA fill:#FFFFE0
+    style FORMULA fill:#c9c9a8
 ```
 
 ---
@@ -149,7 +149,7 @@ flowchart TD
     AFF -->|Yes| SEND_AFF[Send Affirmation]
     WARN -->|Yes| SEND_DEF[Emit Defense Signal]
 
-    style NEWW fill:#FFD700
+    style NEWW fill:#b8956b
 ```
 
 ### 3.2 Measurement Details
@@ -431,7 +431,7 @@ graph LR
         S4 --> S5[Step 5]
     end
 
-    style S4 fill:#FFD700
+    style S4 fill:#b8956b
 ```
 
 Execution order:
@@ -622,8 +622,8 @@ graph TB
     WORKFLOW --> INTERACT
     WORKFLOW --> RESULT
 
-    style TRUST fill:#98FB98
-    style BELIEF fill:#FFB6C1
+    style TRUST fill:#7d9f85
+    style BELIEF fill:#a67676
 ```
 
 ---

@@ -39,11 +39,11 @@ graph TB
     DEF --> CORE
     CORE --> ORCH
 
-    style BIO1 fill:#90EE90
-    style BIO2 fill:#90EE90
-    style BIO3 fill:#90EE90
-    style CORE fill:#FFD700
-    style ORCH fill:#87CEEB
+    style BIO1 fill:#7d9f85
+    style BIO2 fill:#7d9f85
+    style BIO3 fill:#7d9f85
+    style CORE fill:#b8956b
+    style ORCH fill:#6b8fa3
 ```
 
 ---
@@ -90,8 +90,8 @@ graph LR
         PHI --> W[Δw: Weight Change]
     end
 
-    style PHI fill:#FFD700
-    style W fill:#90EE90
+    style PHI fill:#b8956b
+    style W fill:#7d9f85
 ```
 
 | Symbol | Description | Range |
@@ -299,7 +299,7 @@ graph TB
     P6 --> GOAL
     P7 --> GOAL
 
-    style GOAL fill:#FFD700
+    style GOAL fill:#b8956b
 ```
 
 1. **Trust Through Interaction** — Trust emerges from consistent, high-quality, reciprocal interactions

@@ -64,10 +64,10 @@ graph TB
         end
     end
 
-    style ID fill:#87CEEB
-    style TRUST fill:#98FB98
-    style CONN fill:#FFD700
-    style CAPS fill:#DDA0DD
+    style ID fill:#6b8fa3
+    style TRUST fill:#7d9f85
+    style CONN fill:#b8956b
+    style CAPS fill:#8a7a9a
 ```
 
 ---
@@ -583,7 +583,7 @@ graph TB
         N --> |updates| ST[State]
     end
 
-    style N fill:#FFD700
+    style N fill:#b8956b
 ```
 
 ---

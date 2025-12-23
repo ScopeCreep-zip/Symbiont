@@ -36,7 +36,7 @@ graph TB
     SIM --> AGT
     SIM --> MET
 
-    style SIM fill:#FFD700
+    style SIM fill:#b8956b
 ```
 
 ### 2.2 Simulation Loop

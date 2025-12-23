@@ -183,10 +183,10 @@ graph LR
 
     T0 --> T100 --> T300 --> T500
 
-    style T0 fill:#FFE4B5
-    style T100 fill:#FFFFE0
-    style T300 fill:#98FB98
-    style T500 fill:#90EE90
+    style T0 fill:#c4b49a
+    style T100 fill:#c9c9a8
+    style T300 fill:#7d9f85
+    style T500 fill:#7d9f85
 ```
 
 **What happened:**

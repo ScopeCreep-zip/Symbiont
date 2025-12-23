@@ -74,11 +74,11 @@ graph LR
         FREE["ρ >> 1<br/>Free-riding"]
     end
 
-    style EXPLOIT fill:#FF6B6B
-    style GIVE fill:#FFB6C1
-    style BALANCE fill:#98FB98
-    style RECEIVE fill:#87CEEB
-    style FREE fill:#FF6B6B
+    style EXPLOIT fill:#996666
+    style GIVE fill:#a67676
+    style BALANCE fill:#7d9f85
+    style RECEIVE fill:#6b8fa3
+    style FREE fill:#996666
 ```
 
 ### 3.3 Logarithmic Transform

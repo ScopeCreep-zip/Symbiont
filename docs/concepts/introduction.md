@@ -53,9 +53,9 @@ graph TB
     P2 --> S2
     P3 --> S3
 
-    style S1 fill:#90EE90
-    style S2 fill:#FFB6C1
-    style S3 fill:#87CEEB
+    style S1 fill:#7d9f85
+    style S2 fill:#a67676
+    style S3 fill:#6b8fa3
 ```
 
 **Key Innovation:** Rather than relying on centralized reputation systems, blockchain-based consensus, or certificate authorities, Symbiont allows trust to *emerge* from the pattern of interactions between agents—much like how biological networks optimize themselves through local rules.
@@ -105,10 +105,10 @@ flowchart LR
         N1[Node A] <-->|Connection strengthens<br/>with good interactions| N2[Node B]
     end
 
-    style F1 fill:#98FB98
-    style F2 fill:#98FB98
-    style N1 fill:#87CEEB
-    style N2 fill:#87CEEB
+    style F1 fill:#7d9f85
+    style F2 fill:#7d9f85
+    style N1 fill:#6b8fa3
+    style N2 fill:#6b8fa3
 ```
 
 In slime mold:
@@ -157,7 +157,7 @@ graph TB
     TC1 --> CORE
     DS1 --> CORE
 
-    style CORE fill:#FFD700
+    style CORE fill:#b8956b
 ```
 
 **Pillar 1: Connection Dynamics**
@@ -185,10 +185,10 @@ graph LR
     B ---|w=0.33| D((Node D<br/>T=0.54))
     C ---|w=0.88| D
 
-    style A fill:#90EE90
-    style C fill:#90EE90
-    style B fill:#FFE4B5
-    style D fill:#FFE4B5
+    style A fill:#7d9f85
+    style C fill:#7d9f85
+    style B fill:#c4b49a
+    style D fill:#c4b49a
 ```
 
 - **Nodes** represent autonomous agents (AI assistants, services, users)

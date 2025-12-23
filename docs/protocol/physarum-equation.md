@@ -460,8 +460,8 @@ graph TB
     DEF --> SUM
     SUM --> NEW_W
 
-    style PHI fill:#98FB98
-    style NEW_W fill:#FFD700
+    style PHI fill:#7d9f85
+    style NEW_W fill:#b8956b
 ```
 
 ---
