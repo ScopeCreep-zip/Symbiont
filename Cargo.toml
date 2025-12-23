@@ -1,0 +1,44 @@
+[workspace]
+resolver = "2"
+members = [
+    "symbiont-core",
+    "symbiont-sim",
+    "symbiont-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Symbiont Contributors"]
+repository = "https://github.com/YOUR_USERNAME/symbiont"
+homepage = "https://github.com/YOUR_USERNAME/symbiont"
+documentation = "https://docs.rs/symbiont-core"
+readme = "README.md"
+keywords = ["trust", "distributed", "multi-agent", "protocol", "physarum"]
+categories = ["algorithms", "simulation", "cryptography"]
+rust-version = "1.70"
+
+[workspace.dependencies]
+# Async runtime
+tokio = { version = "1.35", features = ["full"] }
+
+# Cryptography
+ed25519-dalek = { version = "2.1", features = ["rand_core"] }
+blake3 = "1.5"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Utilities
+rand = "0.8"
+thiserror = "1.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# CLI
+clap = { version = "4.4", features = ["derive"] }
+
+# Data export
+csv = "1.3"

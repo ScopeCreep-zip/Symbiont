@@ -1,0 +1,55 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+.secrets
+
+# Testing and coverage
+*.profraw
+*.profdata
+coverage/
+lcov.info
+tarpaulin-report.html
+
+# Documentation build
+/docs/book/
+/docs/target/
+
+# Benchmarks
+/benches/target/
+
+# OS files
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Simulation output
+*.csv
+!tests/**/*.csv
+output/
+results/

@@ -1,0 +1,18 @@
+[package]
+name = "symbiont-core"
+description = "Symbiont Mycorrhizal Trust Protocol - Core Library"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+tokio.workspace = true
+ed25519-dalek.workspace = true
+blake3.workspace = true
+serde.workspace = true
+rand.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["test-util"] }
