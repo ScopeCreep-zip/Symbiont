@@ -595,4 +595,4 @@ State machines provide:
 
 ---
 
-*Previous: [Convergence Protocol](./convergence.md) | Next: [Getting Started](../tutorials/getting-started.md)*
+*Previous: [Convergence Protocol](./convergence.md) | Next: [Orchestration Protocol](./orchestration.md)*

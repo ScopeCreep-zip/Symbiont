@@ -68,6 +68,7 @@ graph TB
 | [Defense Signaling](./protocol/defense-signaling.md) | Threat detection and propagation | Security-focused readers |
 | [Convergence Protocol](./protocol/convergence.md) | How agents reach consensus | Distributed systems developers |
 | [State Machines](./protocol/state-machines.md) | Node and defense state transitions | Implementers |
+| [Orchestration Protocol](./protocol/orchestration.md) | Task routing, workflows, and handoffs | Developers, architects |
 
 ### Tutorials
 | Document | Description | Recommended For |
